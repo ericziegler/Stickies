@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A9BC581CA575BD00E92BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A9BC571CA575BD00E92BBC /* AppDelegate.m */; };
+		07A9BC5B1CA575BD00E92BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A9BC5A1CA575BD00E92BBC /* main.m */; };
+		07A9BC5E1CA575BD00E92BBC /* ZBStickiesDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A9BC5D1CA575BD00E92BBC /* ZBStickiesDocument.m */; };
+		07A9BC611CA575BD00E92BBC /* ZBStickiesDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07A9BC5F1CA575BD00E92BBC /* ZBStickiesDocument.xib */; };
+		07A9BC631CA575BD00E92BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A9BC621CA575BD00E92BBC /* Assets.xcassets */; };
+		07A9BC661CA575BD00E92BBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07A9BC641CA575BD00E92BBC /* MainMenu.xib */; };
+		07A9BC721CA5766000E92BBC /* ZBStickiesTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A9BC711CA5766000E92BBC /* ZBStickiesTextField.m */; };
+		07A9BC751CA57A2E00E92BBC /* ZBStickiesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A9BC741CA57A2E00E92BBC /* ZBStickiesWindow.m */; };
+		07B662D51CA5824100036832 /* ZBSticky.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B662D41CA5824100036832 /* ZBSticky.m */; };
+		07B662D81CA5845400036832 /* ZBStickyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B662D71CA5845400036832 /* ZBStickyManager.m */; };
+		07B662E31CA5B7DE00036832 /* NSColor+Zigabytes.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B662E21CA5B7DE00036832 /* NSColor+Zigabytes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A9BC531CA575BD00E92BBC /* ZigStickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigStickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A9BC561CA575BD00E92BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07A9BC571CA575BD00E92BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07A9BC5A1CA575BD00E92BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07A9BC5C1CA575BD00E92BBC /* ZBStickiesDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZBStickiesDocument.h; sourceTree = "<group>"; };
+		07A9BC5D1CA575BD00E92BBC /* ZBStickiesDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBStickiesDocument.m; sourceTree = "<group>"; };
+		07A9BC601CA575BD00E92BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ZBStickiesDocument.xib; sourceTree = "<group>"; };
+		07A9BC621CA575BD00E92BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07A9BC651CA575BD00E92BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		07A9BC671CA575BD00E92BBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A9BC701CA5766000E92BBC /* ZBStickiesTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBStickiesTextField.h; sourceTree = "<group>"; };
+		07A9BC711CA5766000E92BBC /* ZBStickiesTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBStickiesTextField.m; sourceTree = "<group>"; };
+		07A9BC731CA57A2E00E92BBC /* ZBStickiesWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBStickiesWindow.h; sourceTree = "<group>"; };
+		07A9BC741CA57A2E00E92BBC /* ZBStickiesWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBStickiesWindow.m; sourceTree = "<group>"; };
+		07B662D31CA5824100036832 /* ZBSticky.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBSticky.h; sourceTree = "<group>"; };
+		07B662D41CA5824100036832 /* ZBSticky.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBSticky.m; sourceTree = "<group>"; };
+		07B662D61CA5845400036832 /* ZBStickyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBStickyManager.h; sourceTree = "<group>"; };
+		07B662D71CA5845400036832 /* ZBStickyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBStickyManager.m; sourceTree = "<group>"; };
+		07B662E11CA5B7DE00036832 /* NSColor+Zigabytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Zigabytes.h"; sourceTree = "<group>"; };
+		07B662E21CA5B7DE00036832 /* NSColor+Zigabytes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Zigabytes.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A9BC501CA575BD00E92BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A9BC4A1CA575BD00E92BBC = {
+			isa = PBXGroup;
+			children = (
+				07A9BC551CA575BD00E92BBC /* ZigStickies */,
+				07A9BC591CA575BD00E92BBC /* Supporting Files */,
+				07A9BC541CA575BD00E92BBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07A9BC541CA575BD00E92BBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A9BC531CA575BD00E92BBC /* ZigStickies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A9BC551CA575BD00E92BBC /* ZigStickies */ = {
+			isa = PBXGroup;
+			children = (
+				07A9BC6D1CA5760300E92BBC /* AppDelegate */,
+				07A9BC6E1CA5760C00E92BBC /* Documents */,
+				07B662D21CA5822900036832 /* Data */,
+				07A9BC6F1CA5764700E92BBC /* Subclasses */,
+				07B662E01CA5B7D200036832 /* Categories */,
+			);
+			path = ZigStickies;
+			sourceTree = "<group>";
+		};
+		07A9BC591CA575BD00E92BBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07A9BC671CA575BD00E92BBC /* Info.plist */,
+				07A9BC621CA575BD00E92BBC /* Assets.xcassets */,
+				07A9BC5A1CA575BD00E92BBC /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ZigStickies;
+			sourceTree = "<group>";
+		};
+		07A9BC6D1CA5760300E92BBC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				07A9BC561CA575BD00E92BBC /* AppDelegate.h */,
+				07A9BC571CA575BD00E92BBC /* AppDelegate.m */,
+				07A9BC641CA575BD00E92BBC /* MainMenu.xib */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		07A9BC6E1CA5760C00E92BBC /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				07A9BC5C1CA575BD00E92BBC /* ZBStickiesDocument.h */,
+				07A9BC5D1CA575BD00E92BBC /* ZBStickiesDocument.m */,
+				07A9BC5F1CA575BD00E92BBC /* ZBStickiesDocument.xib */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		07A9BC6F1CA5764700E92BBC /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				07A9BC701CA5766000E92BBC /* ZBStickiesTextField.h */,
+				07A9BC711CA5766000E92BBC /* ZBStickiesTextField.m */,
+				07A9BC731CA57A2E00E92BBC /* ZBStickiesWindow.h */,
+				07A9BC741CA57A2E00E92BBC /* ZBStickiesWindow.m */,
+			);
+			name = Subclasses;
+			sourceTree = "<group>";
+		};
+		07B662D21CA5822900036832 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				07B662D61CA5845400036832 /* ZBStickyManager.h */,
+				07B662D71CA5845400036832 /* ZBStickyManager.m */,
+				07B662D31CA5824100036832 /* ZBSticky.h */,
+				07B662D41CA5824100036832 /* ZBSticky.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		07B662E01CA5B7D200036832 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07B662E11CA5B7DE00036832 /* NSColor+Zigabytes.h */,
+				07B662E21CA5B7DE00036832 /* NSColor+Zigabytes.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A9BC521CA575BD00E92BBC /* ZigStickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A9BC6A1CA575BD00E92BBC /* Build configuration list for PBXNativeTarget "ZigStickies" */;
+			buildPhases = (
+				07A9BC4F1CA575BD00E92BBC /* Sources */,
+				07A9BC501CA575BD00E92BBC /* Frameworks */,
+				07A9BC511CA575BD00E92BBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZigStickies;
+			productName = ZigStickies;
+			productReference = 07A9BC531CA575BD00E92BBC /* ZigStickies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A9BC4B1CA575BD00E92BBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zigabytes;
+				TargetAttributes = {
+					07A9BC521CA575BD00E92BBC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 07A9BC4E1CA575BD00E92BBC /* Build configuration list for PBXProject "ZigStickies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07A9BC4A1CA575BD00E92BBC;
+			productRefGroup = 07A9BC541CA575BD00E92BBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A9BC521CA575BD00E92BBC /* ZigStickies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A9BC511CA575BD00E92BBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A9BC631CA575BD00E92BBC /* Assets.xcassets in Resources */,
+				07A9BC611CA575BD00E92BBC /* ZBStickiesDocument.xib in Resources */,
+				07A9BC661CA575BD00E92BBC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A9BC4F1CA575BD00E92BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A9BC5E1CA575BD00E92BBC /* ZBStickiesDocument.m in Sources */,
+				07A9BC5B1CA575BD00E92BBC /* main.m in Sources */,
+				07B662D81CA5845400036832 /* ZBStickyManager.m in Sources */,
+				07B662E31CA5B7DE00036832 /* NSColor+Zigabytes.m in Sources */,
+				07A9BC751CA57A2E00E92BBC /* ZBStickiesWindow.m in Sources */,
+				07A9BC721CA5766000E92BBC /* ZBStickiesTextField.m in Sources */,
+				07A9BC581CA575BD00E92BBC /* AppDelegate.m in Sources */,
+				07B662D51CA5824100036832 /* ZBSticky.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07A9BC5F1CA575BD00E92BBC /* ZBStickiesDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A9BC601CA575BD00E92BBC /* Base */,
+			);
+			name = ZBStickiesDocument.xib;
+			sourceTree = "<group>";
+		};
+		07A9BC641CA575BD00E92BBC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A9BC651CA575BD00E92BBC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07A9BC681CA575BD00E92BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07A9BC691CA575BD00E92BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07A9BC6B1CA575BD00E92BBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZigStickies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zigabytes.ZigStickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07A9BC6C1CA575BD00E92BBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZigStickies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zigabytes.ZigStickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A9BC4E1CA575BD00E92BBC /* Build configuration list for PBXProject "ZigStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A9BC681CA575BD00E92BBC /* Debug */,
+				07A9BC691CA575BD00E92BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A9BC6A1CA575BD00E92BBC /* Build configuration list for PBXNativeTarget "ZigStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A9BC6B1CA575BD00E92BBC /* Debug */,
+				07A9BC6C1CA575BD00E92BBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A9BC4B1CA575BD00E92BBC /* Project object */;
+}
