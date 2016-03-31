@@ -217,6 +217,10 @@
         [textView insertNewlineIgnoringFieldEditor:self];
         result = YES;
     }
+    else if (commandSelector == @selector(insertTab:)) {
+        [textView insertTabIgnoringFieldEditor:self];
+        result = YES;
+    }
     
     return result;
 }
