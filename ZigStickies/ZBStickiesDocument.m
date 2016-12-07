@@ -48,7 +48,11 @@
     self.colors = @[[NSColor colorWithCalibratedRed:0.55 green:0.83 blue:0.98 alpha:1.0],
                     [NSColor colorWithCalibratedRed:0.42 green:0.96 blue:0.61 alpha:1.0],
                     [NSColor colorWithCalibratedRed:0.96 green:0.71 blue:0.42 alpha:1.0],
-                    [NSColor colorWithCalibratedRed:0.69 green:0.68 blue:0.98 alpha:1.0]];
+                    [NSColor colorWithCalibratedRed:0.69 green:0.68 blue:0.98 alpha:1.0],
+                    [NSColor colorWithCalibratedRed:0.96 green:0.71 blue:0.73 alpha:1.0],
+                    [NSColor colorWithCalibratedRed:1.0 green:1.0 blue:0.76 alpha:1.0],
+                    [NSColor colorWithCalibratedRed:0.87 green:0.87 blue:0.88 alpha:1.0],
+                    [NSColor colorWithCalibratedRed:0.91 green:0.79 blue:0.70 alpha:1.0]];
 }
 
 - (void)populateUI
@@ -60,12 +64,8 @@
         [self updateTextStrikes];
     } else {
         self.stickiesTextField.stringValue = NSLocalizedString(@"TODO:\n-----\n", @"TODO starting text");
-        NSArray *backgroundColors = @[[NSColor colorWithCalibratedRed:0.55 green:0.83 blue:0.98 alpha:1.0],
-                                      [NSColor colorWithCalibratedRed:0.42 green:0.96 blue:0.61 alpha:1.0],
-                                      [NSColor colorWithCalibratedRed:0.96 green:0.71 blue:0.42 alpha:1.0],
-                                      [NSColor colorWithCalibratedRed:0.69 green:0.68 blue:0.98 alpha:1.0]];
-        NSInteger colorIndex = arc4random() % backgroundColors.count;
-        self.colorWell.color = [backgroundColors objectAtIndex:colorIndex];
+        NSInteger colorIndex = arc4random() % self.colors.count;
+        self.colorWell.color = [self.colors objectAtIndex:colorIndex];
     }
 }
 
